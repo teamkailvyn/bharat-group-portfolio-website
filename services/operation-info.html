@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Information Services - Bharat Health Care Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <!-- Top Strip -->
+    <div class="top-strip">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="offer-text">
+                        <i class="fas fa-flask text-green me-2"></i>
+                        Get 10% off on Lab Test – Book Now
+                    </span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="contact-info">
+                        <i class="fas fa-phone-alt text-blue me-2"></i>24/7 Emergency
+                        <span class="ms-3">
+                            <i class="fab fa-whatsapp text-success me-2"></i>WhatsApp
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-facebook text-primary me-2"></i>Facebook
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-instagram text-danger me-2"></i>Instagram
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <div class="logo-container">
+                    <img src="../public/Logo_bharat.png" alt="Bharat Health Care" class="logo-img me-2">
+                    <div class="brand-content">
+                        <span class="brand-text">Bharat Health Care</span>
+                        <small class="tagline">Work for humanity</small>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="doctor-clinic.html">Specialist Doctor Clinic</a></li>
+                            <li><a class="dropdown-item" href="pathology.html">All Pathology Test</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">All Radiology Test</a></li>
+                            <li><a class="dropdown-item" href="hospital-admission.html">Hospital Admission</a></li>
+                            <li><a class="dropdown-item" href="operation-info.html">Operation Information</a></li>
+                            <li><a class="dropdown-item" href="home-collection.html">Home Collection Service</a></li>
+                            <li><a class="dropdown-item" href="physiotherapy.html">Physiotherapy</a></li>
+                            <li><a class="dropdown-item" href="medical-insurance.html">Medical Insurance</a></li>
+                            <li><a class="dropdown-item" href="ambulance.html">Ambulance Service</a></li>
+                            <li><a class="dropdown-item" href="medicine-delivery.html">Medicine Delivery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../health-tips.html">Health Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-hero-content">
+                        <h1 class="display-4 fw-bold mb-4">Operation Information & Guidance</h1>
+                        <p class="lead mb-4">Complete surgical guidance and post-operative care coordination. We provide comprehensive information about surgical procedures and help you prepare for operations.</p>
+                        <div class="hero-buttons">
+                            <a href="#operation-guidance" class="btn btn-primary btn-lg me-3">Get Operation Info</a>
+                            <a href="tel:+919876543210" class="btn btn-outline-danger btn-lg">
+                                <i class="fas fa-phone me-2"></i>Emergency Consultation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-hero-image">
+                        <img src="https://media.istockphoto.com/id/1418999473/photo/doctors-comforting-disabled-elderly-patient.jpg?s=612x612&w=0&k=20&c=ggVR5D9U8IY7irIrgvfqSmlLwA7se4vc2fRSAjV2lSs=" alt="Surgery Information" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operation Services -->
+    <section class="operation-services py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Operation Support Services</h2>
+                <p class="section-subtitle">Comprehensive surgical guidance from consultation to recovery</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="operation-card">
+                        <div class="operation-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h5>Pre-Operation Consultation</h5>
+                        <p>Detailed information about surgical procedures, risks, and preparation requirements</p>
+                        <ul class="operation-features">
+                            <li>Procedure explanation</li>
+                            <li>Risk assessment</li>
+                            <li>Pre-op instructions</li>
+                            <li>Cost estimation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="operation-card">
+                        <div class="operation-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h5>Surgeon Selection</h5>
+                        <p>Help you find the right surgeon and hospital for your specific surgical needs</p>
+                        <ul class="operation-features">
+                            <li>Surgeon recommendations</li>
+                            <li>Hospital selection</li>
+                            <li>Experience verification</li>
+                            <li>Second opinions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="operation-card">
+                        <div class="operation-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h5>Post-Operation Care</h5>
+                        <p>Comprehensive post-operative care coordination and recovery support</p>
+                        <ul class="operation-features">
+                            <li>Recovery monitoring</li>
+                            <li>Follow-up appointments</li>
+                            <li>Home care services</li>
+                            <li>Rehabilitation support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Operations -->
+    <section class="common-operations py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Common Surgical Procedures</h2>
+                <p class="section-subtitle">Information about frequently performed operations</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="procedure-card">
+                        <div class="procedure-header">
+                            <i class="fas fa-heart text-danger"></i>
+                            <h5>Cardiac Surgery</h5>
+                        </div>
+                        <div class="procedure-body">
+                            <p>Heart surgeries including bypass, valve replacement, and angioplasty</p>
+                            <div class="procedure-details">
+                                <div class="detail-item">
+                                    <span class="label">Duration:</span>
+                                    <span class="value">3-6 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Recovery:</span>
+                                    <span class="value">4-8 weeks</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Cost Range:</span>
+                                    <span class="value">₹2,00,000 - ₹8,00,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="procedure-card">
+                        <div class="procedure-header">
+                            <i class="fas fa-bone text-warning"></i>
+                            <h5>Orthopedic Surgery</h5>
+                        </div>
+                        <div class="procedure-body">
+                            <p>Joint replacement, fracture repair, and spine surgeries</p>
+                            <div class="procedure-details">
+                                <div class="detail-item">
+                                    <span class="label">Duration:</span>
+                                    <span class="value">1-4 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Recovery:</span>
+                                    <span class="value">6-12 weeks</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Cost Range:</span>
+                                    <span class="value">₹1,50,000 - ₹5,00,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="procedure-card">
+                        <div class="procedure-header">
+                            <i class="fas fa-eye text-info"></i>
+                            <h5>Eye Surgery</h5>
+                        </div>
+                        <div class="procedure-body">
+                            <p>Cataract, LASIK, retinal surgeries, and other eye procedures</p>
+                            <div class="procedure-details">
+                                <div class="detail-item">
+                                    <span class="label">Duration:</span>
+                                    <span class="value">30 min - 2 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Recovery:</span>
+                                    <span class="value">1-4 weeks</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Cost Range:</span>
+                                    <span class="value">₹25,000 - ₹1,50,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="procedure-card">
+                        <div class="procedure-header">
+                            <i class="fas fa-female text-pink"></i>
+                            <h5>Gynecological Surgery</h5>
+                        </div>
+                        <div class="procedure-body">
+                            <p>Hysterectomy, ovarian surgery, and other women's health procedures</p>
+                            <div class="procedure-details">
+                                <div class="detail-item">
+                                    <span class="label">Duration:</span>
+                                    <span class="value">1-3 hours</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Recovery:</span>
+                                    <span class="value">2-6 weeks</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="label">Cost Range:</span>
+                                    <span class="value">₹75,000 - ₹3,00,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-Operation Checklist -->
+    <section class="pre-operation py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="pre-op-content">
+                        <h2 class="section-title text-start">Pre-Operation Preparation</h2>
+                        <p class="lead">Essential steps to prepare for your surgery</p>
+                        <div class="checklist">
+                            <div class="checklist-item">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <div>
+                                    <h6>Medical Clearance</h6>
+                                    <p>Complete all required medical tests and clearances</p>
+                                </div>
+                            </div>
+                            <div class="checklist-item">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <div>
+                                    <h6>Fasting Instructions</h6>
+                                    <p>Follow specific fasting guidelines before surgery</p>
+                                </div>
+                            </div>
+                            <div class="checklist-item">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <div>
+                                    <h6>Medication Review</h6>
+                                    <p>Review current medications with your surgeon</p>
+                                </div>
+                            </div>
+                            <div class="checklist-item">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <div>
+                                    <h6>Consent Forms</h6>
+                                    <p>Complete all necessary consent and documentation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="pre-op-image">
+                        <img src="https://media.istockphoto.com/id/612833020/photo/pre-operative-preparation.jpg?s=612x612&w=0&k=20&c=4Oe4wz6zUCDfhl7mhNCOorDc2eCsf0-2byEhFolXx4w=" alt="Pre-Operation Preparation" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operation Guidance Form -->
+    <section id="operation-guidance" class="operation-guidance py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="guidance-form">
+                        <h2 class="text-center mb-4">Get Operation Information & Guidance</h2>
+                        <form id="operationForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="patientName" class="form-label">Patient Name *</label>
+                                    <input type="text" class="form-control" id="patientName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contactPhone" class="form-label">Contact Phone *</label>
+                                    <input type="tel" class="form-control" id="contactPhone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contactEmail" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="contactEmail">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="patientAge" class="form-label">Patient Age *</label>
+                                    <input type="number" class="form-control" id="patientAge" min="1" max="120" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="operationType" class="form-label">Type of Operation *</label>
+                                    <select class="form-control" id="operationType" required>
+                                        <option value="">Select Operation Type</option>
+                                        <option value="cardiac">Cardiac Surgery</option>
+                                        <option value="orthopedic">Orthopedic Surgery</option>
+                                        <option value="neurological">Neurological Surgery</option>
+                                        <option value="eye">Eye Surgery</option>
+                                        <option value="gynecological">Gynecological Surgery</option>
+                                        <option value="general">General Surgery</option>
+                                        <option value="plastic">Plastic Surgery</option>
+                                        <option value="urological">Urological Surgery</option>
+                                        <option value="other">Other (Specify)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="urgency" class="form-label">Urgency Level *</label>
+                                    <select class="form-control" id="urgency" required>
+                                        <option value="">Select Urgency</option>
+                                        <option value="emergency">Emergency (Immediate)</option>
+                                        <option value="urgent">Urgent (Within 1 week)</option>
+                                        <option value="planned">Planned (Within 1 month)</option>
+                                        <option value="elective">Elective (Can wait)</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="medicalCondition" class="form-label">Medical Condition/Diagnosis *</label>
+                                    <textarea class="form-control" id="medicalCondition" rows="3" placeholder="Please describe the medical condition requiring surgery" required></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="currentDoctor" class="form-label">Current Treating Doctor</label>
+                                    <input type="text" class="form-control" id="currentDoctor" placeholder="Doctor's name (if any)">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="preferredHospital" class="form-label">Preferred Hospital</label>
+                                    <input type="text" class="form-control" id="preferredHospital" placeholder="Any hospital preference">
+                                </div>
+                                <div class="col-12">
+                                    <label for="informationNeeded" class="form-label">Information Needed *</label>
+                                    <div class="form-check-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="procedureInfo" name="infoNeeded" value="procedure">
+                                            <label class="form-check-label" for="procedureInfo">
+                                                Procedure details and risks
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="costInfo" name="infoNeeded" value="cost">
+                                            <label class="form-check-label" for="costInfo">
+                                                Cost estimation
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="surgeonInfo" name="infoNeeded" value="surgeon">
+                                            <label class="form-check-label" for="surgeonInfo">
+                                                Surgeon recommendations
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="recoveryInfo" name="infoNeeded" value="recovery">
+                                            <label class="form-check-label" for="recoveryInfo">
+                                                Recovery and post-op care
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="additionalQuestions" class="form-label">Additional Questions</label>
+                                    <textarea class="form-control" id="additionalQuestions" rows="2" placeholder="Any specific questions or concerns about the operation"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Get Operation Information</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h4 class="text-saffron mb-3">Bharat Health Care Services</h4>
+                        <p class="mb-3">Work for humanity</p>
+                        <p>Delivering comprehensive healthcare services with compassion and excellence. We are committed to making quality healthcare accessible to every Indian citizen.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="health-tips.html">Health Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services/doctor-clinic.html">Doctor Clinic</a></li>
+                        <li><a href="services/pathology.html">Pathology</a></li>
+                        <li><a href="services/ambulance.html">Ambulance</a></li>
+                        <li><a href="services/home-collection.html">Home Collection</a></li>
+                        <li><a href="services/physiotherapy.html">Physiotherapy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-saffron mb-3">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope text-green me-2"></i>
+                            <span class="text-dark">info@bharathealthcare.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt text-green me-2"></i>
+                            <span class="text-dark">123 Healthcare Street, Medical District, New Delhi - 110001</span>
+                        </div>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2025 Bharat Health Care Services. Work for humanity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <style>
+        .operation-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .operation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .operation-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--saffron), var(--green));
+            color: white;
+            font-size: 2rem;
+        }
+        
+        .operation-features {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 1.5rem 0;
+        }
+        
+        .operation-features li {
+            margin-bottom: 0.5rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .operation-features li::before {
+            content: '✓';
+            color: var(--green);
+            margin-right: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .procedure-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .procedure-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .procedure-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .procedure-header i {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+        
+        .procedure-header h5 {
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        .procedure-details {
+            margin-top: 1.5rem;
+        }
+        
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .detail-item:last-child {
+            border-bottom: none;
+        }
+        
+        .label {
+            font-weight: 500;
+            color: var(--dark);
+        }
+        
+        .value {
+            color: var(--gray);
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        
+        .checklist-item i {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            margin-top: 0.25rem;
+        }
+        
+        .checklist-item h6 {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .checklist-item p {
+            margin: 0;
+            color: var(--gray);
+        }
+        
+        .guidance-form {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-check-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .text-pink {
+            color: #e91e63 !important;
+        }
+    </style>
+</body>
+</html>

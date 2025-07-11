@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiology Services - Bharat Health Care Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <!-- Top Strip -->
+    <div class="top-strip">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="offer-text">
+                        <i class="fas fa-flask text-green me-2"></i>
+                        Get 10% off on Lab Test – Book Now
+                    </span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="contact-info">
+                        <i class="fas fa-phone-alt text-blue me-2"></i>24/7 Emergency
+                        <span class="ms-3">
+                            <i class="fab fa-whatsapp text-success me-2"></i>WhatsApp
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-facebook text-primary me-2"></i>Facebook
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-instagram text-danger me-2"></i>Instagram
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <div class="logo-container">
+                    <img src="../public/Logo_bharat.png" alt="Bharat Health Care" class="logo-img me-2">
+                    <div class="brand-content">
+                        <span class="brand-text">Bharat Health Care</span>
+                        <small class="tagline">Work for humanity</small>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="doctor-clinic.html">Specialist Doctor Clinic</a></li>
+                            <li><a class="dropdown-item" href="pathology.html">All Pathology Test</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">All Radiology Test</a></li>
+                            <li><a class="dropdown-item" href="hospital-admission.html">Hospital Admission</a></li>
+                            <li><a class="dropdown-item" href="operation-info.html">Operation Information</a></li>
+                            <li><a class="dropdown-item" href="home-collection.html">Home Collection Service</a></li>
+                            <li><a class="dropdown-item" href="physiotherapy.html">Physiotherapy</a></li>
+                            <li><a class="dropdown-item" href="medical-insurance.html">Medical Insurance</a></li>
+                            <li><a class="dropdown-item" href="ambulance.html">Ambulance Service</a></li>
+                            <li><a class="dropdown-item" href="medicine-delivery.html">Medicine Delivery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../health-tips.html">Health Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-hero-content">
+                        <h1 class="display-4 fw-bold mb-4">Advanced Radiology Services</h1>
+                        <p class="lead mb-4">State-of-the-art imaging technology for accurate diagnosis. Our radiology department offers comprehensive imaging services with expert radiologists.</p>
+                        <div class="hero-buttons">
+                            <a href="#book-scan" class="btn btn-primary btn-lg me-3">Book Scan</a>
+                            <a href="tel:+919876543210" class="btn btn-outline-danger btn-lg">
+                                <i class="fas fa-phone me-2"></i>Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-hero-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1664303506610-f80b16db0c3d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFkaW9sb2d5fGVufDB8fDB8fHww" alt="Radiology Equipment" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Radiology Services -->
+    <section class="radiology-services py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Imaging Services</h2>
+                <p class="section-subtitle">Comprehensive diagnostic imaging with latest technology</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="radiology-card">
+                        <div class="radiology-icon">
+                            <i class="fas fa-x-ray"></i>
+                        </div>
+                        <h5>X-Ray</h5>
+                        <p>Digital X-ray imaging for bones, chest, and other body parts</p>
+                        <ul class="service-features">
+                            <li>Digital X-ray technology</li>
+                            <li>Instant results</li>
+                            <li>Low radiation exposure</li>
+                            <li>High image quality</li>
+                        </ul>
+                        <div class="price-info">
+                            <span class="price">₹300 - ₹800</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="radiology-card">
+                        <div class="radiology-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h5>CT Scan</h5>
+                        <p>Computed Tomography for detailed cross-sectional images</p>
+                        <ul class="service-features">
+                            <li>Multi-slice CT scanner</li>
+                            <li>3D reconstruction</li>
+                            <li>Contrast studies available</li>
+                            <li>Emergency scans</li>
+                        </ul>
+                        <div class="price-info">
+                            <span class="price">₹2,500 - ₹8,000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="radiology-card">
+                        <div class="radiology-icon">
+                            <i class="fas fa-magnet"></i>
+                        </div>
+                        <h5>MRI Scan</h5>
+                        <p>Magnetic Resonance Imaging for detailed soft tissue imaging</p>
+                        <ul class="service-features">
+                            <li>1.5T MRI machine</li>
+                            <li>No radiation</li>
+                            <li>Detailed soft tissue images</li>
+                            <li>Functional MRI available</li>
+                        </ul>
+                        <div class="price-info">
+                            <span class="price">₹4,000 - ₹15,000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="radiology-card">
+                        <div class="radiology-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h5>Ultrasound</h5>
+                        <p>Real-time imaging using sound waves for various organs</p>
+                        <ul class="service-features">
+                            <li>4D ultrasound</li>
+                            <li>Doppler studies</li>
+                            <li>Pregnancy scans</li>
+                            <li>Abdominal imaging</li>
+                        </ul>
+                        <div class="price-info">
+                            <span class="price">₹800 - ₹2,500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialized Scans -->
+    <section class="specialized-scans py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Specialized Imaging</h2>
+                <p class="section-subtitle">Advanced diagnostic procedures for specific conditions</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="scan-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1677717787909-f34ae61710ca?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFtbW9ncmFwaHl8ZW58MHx8MHx8fDA%3D" alt="Mammography" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Mammography</h5>
+                            <p>Specialized breast imaging for early detection of breast cancer</p>
+                            <ul class="scan-features">
+                                <li>Digital mammography</li>
+                                <li>3D tomosynthesis</li>
+                                <li>Screening & diagnostic</li>
+                                <li>Expert radiologist review</li>
+                            </ul>
+                            <div class="scan-price">₹1,500 - ₹3,000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="scan-card">
+                        <img src="https://images.unsplash.com/photo-1648025487735-2ca48d72c449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MDgyMDR8MHwxfHNlYXJjaHwxfHxERVhBJTIwc2NhbiUyQyUyMHJoZXVtYXRvbG9neSUyQyUyMGJvbmUlMjBkZW5zaXR5JTJDJTIwb3N0ZW9wb3Jvc2lzJTJDJTIwcmhldW1hdG9pZCUyMGFydGhyaXRpc3xlbnwwfDB8fHwxNzQ5OTQwMzM1fDA&ixlib=rb-4.1.0&q=80&w=500&?utm_source=numberanalytics&utm_medium=referral" alt="DEXA Scan" class="card-img-top">
+                        <div class="card-body">
+                            <h5>DEXA Scan</h5>
+                            <p>Bone density measurement for osteoporosis detection</p>
+                            <ul class="scan-features">
+                                <li>Bone mineral density</li>
+                                <li>Osteoporosis screening</li>
+                                <li>Fracture risk assessment</li>
+                                <li>Body composition analysis</li>
+                            </ul>
+                            <div class="scan-price">₹2,000 - ₹3,500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="scan-card">
+                        <img src="https://media.istockphoto.com/id/503663386/photo/patient-lying-inside-a-medical-scanner-in-hospital.jpg?s=612x612&w=0&k=20&c=GOXVtNCG9AmmkdilutdyxbuO_As1J5sieqQVv9jfxkk=" alt="PET Scan" class="card-img-top">
+                        <div class="card-body">
+                            <h5>PET-CT Scan</h5>
+                            <p>Combined metabolic and anatomical imaging for cancer detection</p>
+                            <ul class="scan-features">
+                                <li>Cancer staging</li>
+                                <li>Treatment monitoring</li>
+                                <li>Metabolic imaging</li>
+                                <li>Whole body scan</li>
+                            </ul>
+                            <div class="scan-price">₹25,000 - ₹35,000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>.scan-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.scan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.scan-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.scan-card .card-body {
+    padding: 1.5rem; /* Add enough horizontal padding */
+}
+
+.scan-card h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.scan-card p {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.scan-features {
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove extra left padding */
+    margin: 0;
+}
+
+.scan-features li {
+    position: relative;
+    padding-left: 1.5rem; /* Add space for custom bullet */
+    margin-bottom: 0.6rem;
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.scan-features li::before {
+    content: '';
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #ff9933; /* saffron bullet */
+    border-radius: 50%;
+}
+
+
+.scan-price {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e67e22;
+    margin-top: 1rem;
+}
+</style>
+
+    <!-- Why Choose Our Radiology -->
+    <section class="why-choose-radiology py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="why-choose-content">
+                        <h2 class="section-title text-start">Why Choose Our Radiology Department?</h2>
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-cogs text-saffron"></i>
+                                <div>
+                                    <h5>Latest Technology</h5>
+                                    <p>State-of-the-art imaging equipment for superior image quality</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-md text-green"></i>
+                                <div>
+                                    <h5>Expert Radiologists</h5>
+                                    <p>Board-certified radiologists with years of experience</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-clock text-blue"></i>
+                                <div>
+                                    <h5>Quick Reports</h5>
+                                    <p>Fast turnaround time for urgent cases and routine scans</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt text-saffron"></i>
+                                <div>
+                                    <h5>Safety First</h5>
+                                    <p>Strict radiation safety protocols and patient comfort</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="why-choose-image">
+                        <img src="https://img.freepik.com/free-photo/high-angle-ct-scan-machine-room_23-2149341486.jpg?semt=ais_hybrid&w=740" alt="Radiology Technology" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scan Booking -->
+    <section id="book-scan" class="scan-booking py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="booking-form">
+                        <h2 class="text-center mb-4">Book Your Radiology Scan</h2>
+                        <form id="scanBookingForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="scanName" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="scanName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="scanPhone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="scanPhone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="scanEmail" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="scanEmail">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="scanAge" class="form-label">Age *</label>
+                                    <input type="number" class="form-control" id="scanAge" min="1" max="120" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="scanType" class="form-label">Scan Type *</label>
+                                    <select class="form-control" id="scanType" required>
+                                        <option value="">Select Scan</option>
+                                        <option value="xray">X-Ray</option>
+                                        <option value="ct">CT Scan</option>
+                                        <option value="mri">MRI Scan</option>
+                                        <option value="ultrasound">Ultrasound</option>
+                                        <option value="mammography">Mammography</option>
+                                        <option value="dexa">DEXA Scan</option>
+                                        <option value="pet-ct">PET-CT Scan</option>
+                                        <option value="other">Other (Specify)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="bodyPart" class="form-label">Body Part/Area *</label>
+                                    <input type="text" class="form-control" id="bodyPart" placeholder="e.g., Chest, Abdomen, Brain" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="scanDate" class="form-label">Preferred Date *</label>
+                                    <input type="date" class="form-control" id="scanDate" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="scanTime" class="form-label">Preferred Time</label>
+                                    <select class="form-control" id="scanTime">
+                                        <option value="">Select Time</option>
+                                        <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                                        <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                                        <option value="evening">Evening (4:00 PM - 7:00 PM)</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="doctorRef" class="form-label">Referring Doctor</label>
+                                    <input type="text" class="form-control" id="doctorRef" placeholder="Doctor's name (if any)">
+                                </div>
+                                <div class="col-12">
+                                    <label for="scanReason" class="form-label">Reason for Scan</label>
+                                    <textarea class="form-control" id="scanReason" rows="3" placeholder="Brief description of symptoms or reason for the scan"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="contrast" name="contrast">
+                                        <label class="form-check-label" for="contrast">
+                                            I understand that contrast may be required for some scans
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="preparation" name="preparation">
+                                        <label class="form-check-label" for="preparation">
+                                            I will follow the preparation instructions provided
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Book Scan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h4 class="text-saffron mb-3">Bharat Health Care Services</h4>
+                        <p class="mb-3">Work for humanity</p>
+                        <p>Delivering comprehensive healthcare services with compassion and excellence. We are committed to making quality healthcare accessible to every Indian citizen.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="health-tips.html">Health Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services/doctor-clinic.html">Doctor Clinic</a></li>
+                        <li><a href="services/pathology.html">Pathology</a></li>
+                        <li><a href="services/ambulance.html">Ambulance</a></li>
+                        <li><a href="services/home-collection.html">Home Collection</a></li>
+                        <li><a href="services/physiotherapy.html">Physiotherapy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-saffron mb-3">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope text-green me-2"></i>
+                            <span class="text-dark">info@bharathealthcare.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt text-green me-2"></i>
+                            <span class="text-dark">123 Healthcare Street, Medical District, New Delhi - 110001</span>
+                        </div>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2025 Bharat Health Care Services. Work for humanity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <style>
+        .radiology-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .radiology-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .radiology-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--saffron), var(--green));
+            color: white;
+            font-size: 2rem;
+        }
+        
+        .radiology-card h5 {
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        .service-features {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 1.5rem 0;
+        }
+        
+        .service-features li {
+            margin-bottom: 0.5rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .service-features li::before {
+            content: '✓';
+            color: var(--green);
+            margin-right: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .price-info {
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .price {
+            font-weight: 600;
+            color: var(--saffron);
+            font-size: 1.1rem;
+        }
+        
+        .scan-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .scan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .scan-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .scan-features {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+        
+        .scan-features li {
+            margin-bottom: 0.5rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .scan-features li::before {
+            content: '•';
+            color: var(--saffron);
+            margin-right: 0.5rem;
+        }
+        
+        .scan-price {
+            font-weight: 600;
+            color: var(--saffron);
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tips - Bharat Health Care Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <!-- Top Strip -->
+    <div class="top-strip">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="offer-text">
+                        <i class="fas fa-flask text-green me-2"></i>
+                        Get 10% off on Lab Test – Book Now
+                    </span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="contact-info">
+                        <i class="fas fa-phone-alt text-blue me-2"></i>24/7 Emergency
+                        <span class="ms-3">
+                            <i class="fab fa-whatsapp text-success me-2"></i>WhatsApp
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-facebook text-primary me-2"></i>Facebook
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-instagram text-danger me-2"></i>Instagram
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-container">
+                    <img src="public/Logo_bharat.png" alt="Bharat Health Care" class="logo-img me-2">
+                    <div class="brand-content">
+                        <span class="brand-text">Bharat Health Care</span>
+                        <small class="tagline">Work for humanity</small>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services/doctor-clinic.html">Specialist Doctor Clinic</a></li>
+                            <li><a class="dropdown-item" href="services/pathology.html">All Pathology Test</a></li>
+                            <li><a class="dropdown-item" href="services/radiology.html">All Radiology Test</a></li>
+                            <li><a class="dropdown-item" href="services/hospital-admission.html">Hospital Admission</a></li>
+                            <li><a class="dropdown-item" href="services/operation-info.html">Operation Information</a></li>
+                            <li><a class="dropdown-item" href="services/home-collection.html">Home Collection Service</a></li>
+                            <li><a class="dropdown-item" href="services/physiotherapy.html">Physiotherapy</a></li>
+                            <li><a class="dropdown-item" href="services/medical-insurance.html">Medical Insurance</a></li>
+                            <li><a class="dropdown-item" href="services/ambulance.html">Ambulance Service</a></li>
+                            <li><a class="dropdown-item" href="services/medicine-delivery.html">Medicine Delivery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="health-tips.html">Health Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Health Tips Hero -->
+    <section class="health-tips-hero">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="display-4 fw-bold mb-4">Health Tips & Wellness Guide</h1>
+                <p class="lead mb-4">Expert advice and practical tips for a healthier lifestyle</p>
+                <div class="hero-stats">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-3 col-6">
+                            <div class="stat-item">
+                                <h3 class="text-saffron">100+</h3>
+                                <p>Health Articles</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="stat-item">
+                                <h3 class="text-green">50+</h3>
+                                <p>Expert Tips</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="stat-item">
+                                <h3 class="text-blue">25+</h3>
+                                <p>Categories</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="stat-item">
+                                <h3 class="text-saffron">1000+</h3>
+                                <p>Happy Readers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Categories -->
+    <section class="tips-categories">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Browse Health Tips by Category</h2>
+                <p class="section-subtitle">Find expert advice on various health topics</p>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Tips</button>
+                <button class="filter-btn" data-category="nutrition">Nutrition</button>
+                <button class="filter-btn" data-category="fitness">Fitness</button>
+                <button class="filter-btn" data-category="mental-health">Mental Health</button>
+                <button class="filter-btn" data-category="preventive">Preventive Care</button>
+                <button class="filter-btn" data-category="lifestyle">Lifestyle</button>
+                <button class="filter-btn" data-category="women-health">Women's Health</button>
+            </div>
+
+            <!-- Health Tips Grid -->
+            <div class="row g-4" id="tipsGrid">
+                <!-- Nutrition Tips -->
+                <div class="col-lg-4 col-md-6 tip-item" data-category="nutrition">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Healthy Diet" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Nutrition</span>
+                            <h5>10 Superfoods for Better Health</h5>
+                            <p>Discover nutrient-rich foods that can boost your immune system and improve overall health.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>5 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>124 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="fitness">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Exercise" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Fitness</span>
+                            <h5>Simple Home Exercises for Busy People</h5>
+                            <p>Quick and effective workout routines you can do at home without any equipment.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>7 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>89 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="mental-health">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/3759657/pexels-photo-3759657.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Mental Health" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Mental Health</span>
+                            <h5>Managing Stress in Daily Life</h5>
+                            <p>Practical techniques to reduce stress and improve your mental well-being.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>6 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>156 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="preventive">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Preventive Care" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Preventive Care</span>
+                            <h5>Essential Health Screenings by Age</h5>
+                            <p>Know which health checkups you need at different stages of life for early detection.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>8 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>203 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="lifestyle">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Sleep Health" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Lifestyle</span>
+                            <h5>Better Sleep for Better Health</h5>
+                            <p>Tips to improve your sleep quality and establish healthy sleep habits.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>5 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>178 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="women-health">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Women's Health" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Women's Health</span>
+                            <h5>Women's Health After 30</h5>
+                            <p>Important health considerations and preventive measures for women over 30.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>9 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>267 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="nutrition">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Hydration" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Nutrition</span>
+                            <h5>Importance of Staying Hydrated</h5>
+                            <p>Learn why proper hydration is crucial for your health and how to maintain it.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>4 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>145 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="fitness">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Yoga" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Fitness</span>
+                            <h5>Yoga for Beginners</h5>
+                            <p>Start your yoga journey with these simple poses and breathing techniques.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>10 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>198 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 tip-item" data-category="preventive">
+                    <div class="tip-card">
+                        <img src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Heart Health" class="card-img-top">
+                        <div class="card-body">
+                            <span class="tip-category">Preventive Care</span>
+                            <h5>Heart Health Tips</h5>
+                            <p>Simple lifestyle changes to keep your heart healthy and prevent cardiovascular disease.</p>
+                            <div class="tip-meta">
+                                <span><i class="fas fa-clock me-1"></i>7 min read</span>
+                                <span><i class="fas fa-heart me-1"></i>234 likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-primary btn-lg">Load More Tips</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-3">Stay Updated with Health Tips</h3>
+                    <p class="mb-4">Subscribe to our newsletter and get the latest health tips, wellness advice, and medical updates delivered to your inbox.</p>
+                </div>
+                <div class="col-lg-6">
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email address" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                        <small class="text-muted mt-2 d-block">We respect your privacy. Unsubscribe at any time.</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h4 class="text-saffron mb-3">Bharat Health Care Services</h4>
+                        <p class="mb-3">Work for humanity</p>
+                        <p>Delivering comprehensive healthcare services with compassion and excellence. We are committed to making quality healthcare accessible to every Indian citizen.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="health-tips.html">Health Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services/doctor-clinic.html">Doctor Clinic</a></li>
+                        <li><a href="services/pathology.html">Pathology</a></li>
+                        <li><a href="services/ambulance.html">Ambulance</a></li>
+                        <li><a href="services/home-collection.html">Home Collection</a></li>
+                        <li><a href="services/physiotherapy.html">Physiotherapy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-saffron mb-3">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope text-green me-2"></i>
+                            <span class="text-dark">info@bharathealthcare.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt text-green me-2"></i>
+                            <span class="text-dark">123 Healthcare Street, Medical District, New Delhi - 110001</span>
+                        </div>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2025 Bharat Health Care Services. Work for humanity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Health Tips Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const tipItems = document.querySelectorAll('.tip-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter tips
+                    tipItems.forEach(item => {
+                        if (category === 'all' || item.getAttribute('data-category') === category) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathology Lab Tests - Bharat Health Care Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <!-- Top Strip -->
+    <div class="top-strip">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="offer-text">
+                        <i class="fas fa-flask text-green me-2"></i>
+                        Get 10% off on Lab Test – Book Now
+                    </span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="contact-info">
+                        <i class="fas fa-phone-alt text-blue me-2"></i>24/7 Emergency
+                        <span class="ms-3">
+                            <i class="fab fa-whatsapp text-success me-2"></i>WhatsApp
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-facebook text-primary me-2"></i>Facebook
+                        </span>
+                        <span class="ms-3">
+                            <i class="fab fa-instagram text-danger me-2"></i>Instagram
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <div class="logo-container">
+                    <img src="../public/Logo_bharat.png" alt="Bharat Health Care" class="logo-img me-2">
+                    <div class="brand-content">
+                        <span class="brand-text">Bharat Health Care</span>
+                        <small class="tagline">Work for humanity</small>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="doctor-clinic.html">Specialist Doctor Clinic</a></li>
+                            <li><a class="dropdown-item" href="pathology.html">All Pathology Test</a></li>
+                            <li><a class="dropdown-item" href="radiology.html">All Radiology Test</a></li>
+                            <li><a class="dropdown-item" href="hospital-admission.html">Hospital Admission</a></li>
+                            <li><a class="dropdown-item" href="operation-info.html">Operation Information</a></li>
+                            <li><a class="dropdown-item" href="home-collection.html">Home Collection Service</a></li>
+                            <li><a class="dropdown-item" href="physiotherapy.html">Physiotherapy</a></li>
+                            <li><a class="dropdown-item" href="medical-insurance.html">Medical Insurance</a></li>
+                            <li><a class="dropdown-item" href="ambulance.html">Ambulance Service</a></li>
+                            <li><a class="dropdown-item" href="medicine-delivery.html">Medicine Delivery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../health-tips.html">Health Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-hero-content">
+                        <h1 class="display-4 fw-bold mb-4">Pathology Lab Tests</h1>
+                        <p class="lead mb-4">Comprehensive diagnostic testing with accurate results and quick turnaround time. State-of-the-art laboratory facilities with certified technicians.</p>
+                        <div class="hero-buttons">
+                            <a href="#book-test" class="btn btn-primary btn-lg me-3">Book Test</a>
+                            <a href="#home-collection" class="btn btn-outline-success btn-lg">
+                                <i class="fas fa-home me-2"></i>Home Collection
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-hero-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1661668908629-93e712f0d551?fm=jpg&q=60&w=3000&ixlihttps://www.shutterstock.com/image-photo/indian-physiotherapist-help-mature-man-260nw-2569400083.jpg" alt="Laboratory Testing" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test Categories -->
+    <section class="test-categories py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Test Categories</h2>
+                <p class="section-subtitle">Complete range of diagnostic tests for all your health needs</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="test-category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h5>Cardiac Tests</h5>
+                        <p>Comprehensive heart health assessment including lipid profile, cardiac enzymes, and ECG</p>
+                        <ul class="test-list">
+                            <li>Lipid Profile</li>
+                            <li>Cardiac Enzymes</li>
+                            <li>ECG</li>
+                            <li>Echocardiogram</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="test-category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h5>Blood Tests</h5>
+                        <p>Complete blood count, blood chemistry, and specialized blood investigations</p>
+                        <ul class="test-list">
+                            <li>Complete Blood Count</li>
+                            <li>Blood Sugar</li>
+                            <li>Liver Function Test</li>
+                            <li>Kidney Function Test</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="test-category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-bacteria"></i>
+                        </div>
+                        <h5>Infection Tests</h5>
+                        <p>Detect and monitor various infections including viral, bacterial, and fungal</p>
+                        <ul class="test-list">
+                            <li>COVID-19 Test</li>
+                            <li>Hepatitis Panel</li>
+                            <li>HIV Test</li>
+                            <li>Malaria Test</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="test-category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <h5>Hormone Tests</h5>
+                        <p>Comprehensive hormone analysis for thyroid, diabetes, and reproductive health</p>
+                        <ul class="test-list">
+                            <li>Thyroid Function</li>
+                            <li>Testosterone</li>
+                            <li>Estrogen</li>
+                            <li>Insulin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tests -->
+    <section class="popular-tests py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Popular Health Checkup Packages</h2>
+                <p class="section-subtitle">Comprehensive health screening packages at affordable prices</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h4>Basic Health Checkup</h4>
+                            <div class="package-price">
+                                <span class="currency">₹</span>
+                                <span class="amount">999</span>
+                                <span class="original-price">₹1,299</span>
+                            </div>
+                        </div>
+                        <div class="package-body">
+                            <ul class="package-includes">
+                                <li><i class="fas fa-check text-success"></i> Complete Blood Count</li>
+                                <li><i class="fas fa-check text-success"></i> Blood Sugar (Fasting)</li>
+                                <li><i class="fas fa-check text-success"></i> Lipid Profile</li>
+                                <li><i class="fas fa-check text-success"></i> Liver Function Test</li>
+                                <li><i class="fas fa-check text-success"></i> Kidney Function Test</li>
+                                <li><i class="fas fa-check text-success"></i> Thyroid Function Test</li>
+                            </ul>
+                            <button class="btn btn-primary w-100 mt-3">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card featured">
+                        <div class="package-ribbon">Most Popular</div>
+                        <div class="package-header">
+                            <h4>Comprehensive Health Checkup</h4>
+                            <div class="package-price">
+                                <span class="currency">₹</span>
+                                <span class="amount">1,999</span>
+                                <span class="original-price">₹2,599</span>
+                            </div>
+                        </div>
+                        <div class="package-body">
+                            <ul class="package-includes">
+                                <li><i class="fas fa-check text-success"></i> All Basic Tests</li>
+                                <li><i class="fas fa-check text-success"></i> Vitamin D</li>
+                                <li><i class="fas fa-check text-success"></i> Vitamin B12</li>
+                                <li><i class="fas fa-check text-success"></i> HbA1c</li>
+                                <li><i class="fas fa-check text-success"></i> Cardiac Risk Markers</li>
+                                <li><i class="fas fa-check text-success"></i> Cancer Markers</li>
+                                <li><i class="fas fa-check text-success"></i> Free Doctor Consultation</li>
+                            </ul>
+                            <button class="btn btn-primary w-100 mt-3">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h4>Women's Health Checkup</h4>
+                            <div class="package-price">
+                                <span class="currency">₹</span>
+                                <span class="amount">1,499</span>
+                                <span class="original-price">₹1,999</span>
+                            </div>
+                        </div>
+                        <div class="package-body">
+                            <ul class="package-includes">
+                                <li><i class="fas fa-check text-success"></i> Basic Health Tests</li>
+                                <li><i class="fas fa-check text-success"></i> Hormone Panel</li>
+                                <li><i class="fas fa-check text-success"></i> Breast Cancer Markers</li>
+                                <li><i class="fas fa-check text-success"></i> Cervical Cancer Screening</li>
+                                <li><i class="fas fa-check text-success"></i> Bone Density Test</li>
+                                <li><i class="fas fa-check text-success"></i> Iron Studies</li>
+                            </ul>
+                            <button class="btn btn-primary w-100 mt-3">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Our Lab -->
+    <section class="why-choose-lab py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="why-choose-content">
+                        <h2 class="section-title text-start">Why Choose Our Laboratory?</h2>
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="fas fa-microscope text-saffron"></i>
+                                <div>
+                                    <h5>State-of-the-Art Equipment</h5>
+                                    <p>Latest technology and automated systems for accurate results</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-md text-green"></i>
+                                <div>
+                                    <h5>Qualified Technicians</h5>
+                                    <p>Certified laboratory professionals with years of experience</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-clock text-blue"></i>
+                                <div>
+                                    <h5>Quick Turnaround</h5>
+                                    <p>Most test results available within 24 hours</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt text-saffron"></i>
+                                <div>
+                                    <h5>Quality Assurance</h5>
+                                    <p>Strict quality control measures and regular calibration</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-home text-green"></i>
+                                <div>
+                                    <h5>Home Collection</h5>
+                                    <p>Free sample collection from your home</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="why-choose-image">
+                        <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D" alt="Laboratory Quality" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test Booking -->
+    <section id="book-test" class="test-booking py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="booking-form">
+                        <h2 class="text-center mb-4">Book Your Lab Test</h2>
+                        <form id="testBookingForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="testName" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="testName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="testPhone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="testPhone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="testEmail" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="testEmail">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="testAge" class="form-label">Age *</label>
+                                    <input type="number" class="form-control" id="testAge" min="1" max="120" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="testType" class="form-label">Test Type *</label>
+                                    <select class="form-control" id="testType" required>
+                                        <option value="">Select Test</option>
+                                        <option value="basic-checkup">Basic Health Checkup</option>
+                                        <option value="comprehensive-checkup">Comprehensive Health Checkup</option>
+                                        <option value="womens-health">Women's Health Checkup</option>
+                                        <option value="cardiac">Cardiac Tests</option>
+                                        <option value="diabetic">Diabetic Panel</option>
+                                        <option value="thyroid">Thyroid Function</option>
+                                        <option value="liver">Liver Function</option>
+                                        <option value="kidney">Kidney Function</option>
+                                        <option value="other">Other (Specify)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="testDate" class="form-label">Preferred Date *</label>
+                                    <input type="date" class="form-control" id="testDate" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="collectionType" class="form-label">Collection Type *</label>
+                                    <select class="form-control" id="collectionType" required>
+                                        <option value="">Select Collection</option>
+                                        <option value="home">Home Collection (Free)</option>
+                                        <option value="lab">Visit Lab</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="testTime" class="form-label">Preferred Time</label>
+                                    <select class="form-control" id="testTime">
+                                        <option value="">Select Time</option>
+                                        <option value="morning">Morning (8:00 AM - 12:00 PM)</option>
+                                        <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                                        <option value="evening">Evening (4:00 PM - 8:00 PM)</option>
+                                    </select>
+                                </div>
+                                <div class="col-12" id="addressField" style="display: none;">
+                                    <label for="testAddress" class="form-label">Home Address</label>
+                                    <textarea class="form-control" id="testAddress" rows="3" placeholder="Enter your complete address for home collection"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <label for="testNotes" class="form-label">Special Instructions (Optional)</label>
+                                    <textarea class="form-control" id="testNotes" rows="2" placeholder="Any special requirements or medical conditions"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="fasting" name="fasting">
+                                        <label class="form-check-label" for="fasting">
+                                            I understand that some tests require fasting
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Book Test</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h4 class="text-saffron mb-3">Bharat Health Care Services</h4>
+                        <p class="mb-3">Work for humanity</p>
+                        <p>Delivering comprehensive healthcare services with compassion and excellence. We are committed to making quality healthcare accessible to every Indian citizen.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="health-tips.html">Health Tips</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-saffron mb-3">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services/doctor-clinic.html">Doctor Clinic</a></li>
+                        <li><a href="services/pathology.html">Pathology</a></li>
+                        <li><a href="services/ambulance.html">Ambulance</a></li>
+                        <li><a href="services/home-collection.html">Home Collection</a></li>
+                        <li><a href="services/physiotherapy.html">Physiotherapy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-saffron mb-3">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope text-green me-2"></i>
+                            <span class="text-dark">info@bharathealthcare.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp text-green me-2"></i>
+                            <span class="text-dark">+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt text-green me-2"></i>
+                            <span class="text-dark">123 Healthcare Street, Medical District, New Delhi - 110001</span>
+                        </div>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2025 Bharat Health Care Services. Work for humanity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Show address field when home collection is selected
+        document.getElementById('collectionType').addEventListener('change', function() {
+            const addressField = document.getElementById('addressField');
+            if (this.value === 'home') {
+                addressField.style.display = 'block';
+                document.getElementById('testAddress').required = true;
+            } else {
+                addressField.style.display = 'none';
+                document.getElementById('testAddress').required = false;
+            }
+        });
+    </script>
+</body>
+</html>
