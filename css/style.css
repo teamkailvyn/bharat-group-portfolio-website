@@ -143,6 +143,17 @@ body {
     background-color: var(--saffron);
 }
 
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown.show .dropdown-menu {
+    display: block;
+}
+
+
+
 //hero section 
 
 .hero-carousel {

@@ -10,39 +10,79 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCarousel();
 });
 
-// Navbar Functions
+
+
+
 function initializeNavbar() {
     const navbar = document.querySelector('.navbar');
-    
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarNav = document.querySelector('.navbar-collapse');
+
     // Navbar scroll effect
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
         } else {
             navbar.classList.remove('scrolled');
         }
     });
-    
-    // Mobile menu toggle
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarNav = document.querySelector('.navbar-collapse');
-    
-    if (navbarToggler && navbarNav) {
-        navbarToggler.addEventListener('click', function() {
-            navbarNav.classList.toggle('show');
+
+    // Mobile menu toggle - Bootstrap handles this automatically
+    // So no need for manual .show toggling
+    if (navbarToggler) {
+        navbarToggler.addEventListener('click', function () {
+            this.classList.toggle('collapsed'); // Toggle the hamburger icon state
         });
     }
-    
-    // Close mobile menu when clicking on link
+
+    // Close mobile menu when clicking a nav link
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
     navLinks.forEach(link => {
-        link.addEventListener('click', function() {
+        link.addEventListener('click', function () {
             if (window.innerWidth < 992) {
-                navbarNav.classList.remove('show');
+                // Bootstrap method to collapse menu
+                const bsCollapse = bootstrap.Collapse.getInstance(navbarNav);
+                if (bsCollapse) {
+                    bsCollapse.hide();
+                }
             }
         });
     });
 }
+
+
+// Enable dropdown toggle in mobile
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', function (e) {
+        // Prevent default link behavior if in mobile view
+        if (window.innerWidth < 992) {
+            e.preventDefault();
+
+            // Close any other open dropdowns
+            document.querySelectorAll('.dropdown.show').forEach(openDropdown => {
+                if (openDropdown !== this.parentElement) {
+                    openDropdown.classList.remove('show');
+                    const menu = openDropdown.querySelector('.dropdown-menu');
+                    if (menu) menu.classList.remove('show');
+                }
+            });
+
+            // Toggle current dropdown
+            const parentDropdown = this.parentElement;
+            parentDropdown.classList.toggle('show');
+
+            const dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
+            if (dropdownMenu) {
+                dropdownMenu.classList.toggle('show');
+            }
+        }
+    });
+});
+
+
+
 
 // Scroll Effects
 function initializeScrollEffects() {
