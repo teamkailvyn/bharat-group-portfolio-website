@@ -159,14 +159,26 @@ body {
 .hero-carousel {
     position: relative;
     width: 100%;
-    height: 600px;
-    overflow: hidden; /* prevents overlap outside slider */
+    height: auto; /* Let height adjust automatically */
+    overflow: hidden;
 }
 
 .carousel-item img {
-    height: 600px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
+
+@media (min-width: 768px) {
+    .hero-carousel {
+        height: 600px; /* Set height for larger screens only */
+    }
+
+    .carousel-item img {
+        height: 600px;
+    }
+}
+
 
 .carousel-caption {
     position: absolute;
@@ -808,6 +820,17 @@ body {
 .footer-links a:hover::before {
     opacity: 1;
 }
+
+.footer-signature {
+    position: absolute; /* now relative to footer only */
+    bottom: 10px;
+    right: 10px;
+    width: 120px; /* adjust size as needed */
+    opacity: 0.8;
+    pointer-events: none; /* non-clickable */
+    user-select: none; /* prevent selecting */
+}
+
 
 .contact-info {
     margin-bottom: 1.5rem;

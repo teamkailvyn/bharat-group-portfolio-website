@@ -439,3 +439,11 @@ window.BharatHealthCare = {
     handleLabBooking,
     handleContactForm
 };
+
+document.addEventListener('contextmenu', function(e) {
+    if (e.target.classList.contains('footer-signature')) {
+        e.preventDefault(); // block right-click
+    }
+});
+
+document.querySelector('.footer-signature').setAttribute('draggable', false); // block drag
